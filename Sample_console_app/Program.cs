@@ -4,8 +4,10 @@
     {
         static void Main(string[] args)
         {
-            StringsManipulation stringsManipulation = new StringsManipulation();
-            stringsManipulation.manipulateString();
+            Methods methods = new Methods();
+            //methods.triggerGreetFriend();
+
+            Console.WriteLine(methods.calculate());
         }
     }
 }
